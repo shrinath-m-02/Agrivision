@@ -1,0 +1,13 @@
+# Lightweight requirements for Raspberry Pi
+# Subset of main requirements, optimized for arm32v7/arm64v8
+
+numpy>=1.21.0
+pillow>=8.3.0
+opencv-python-headless==4.5.5.62  # Lightweight, no GUI
+onnxruntime-rpi  # ARM optimized
+tflite-runtime  # TensorFlow Lite for Pi
+pyyaml>=6.0
+tqdm>=4.50.0
+requests>=2.25.0
+flask>=2.0.0  # For inference server
+scipy>=1.7.0
